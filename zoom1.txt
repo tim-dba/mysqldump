@@ -1,0 +1,3 @@
+#!/usr/local/bin/bash
+mysqldump -uroot -p --all-databases --master-data --single-transaction > dump.sql
+
