@@ -1,3 +1,5 @@
 #!/usr/local/bin/bash
 mysqldump -uroot -p --all-databases --master-data --single-transaction > dump.sql
 
+##Take backup of a single database
+mysqldump -uroot -p --databases sakila > dump2.sql
